@@ -37,7 +37,6 @@
 }
 
 .read-the-docs {
-  color: #888;
 }
 
 
@@ -189,7 +188,7 @@ margin-top: -2rem;
 }
 
 .modal-content {
-  background: rgb(5, 0, 18);
+  background:aliceblue;
   padding: 2rem;
   border-radius: 8px;
   text-align: center;

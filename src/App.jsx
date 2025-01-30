@@ -121,7 +121,7 @@ function App() {
         <div className='fotosdiv'>
           <p className='textobody'>Las palabras estan demás para expresarte lo que siento, mis acciones dia con dia te lo demostrarán.</p>
           <img className='fotosbody' src={ale11} alt="Imagen Ale 10" />
-          <p className='teamo'>Te amo ❤️</p>
+          <p className='teamo'>Te amo </p>
         </div>
         </div>
 
@@ -139,8 +139,8 @@ function App() {
         <button className='botonpropuesta' onClick={() => setModalVisible(true)}>
           Si
         </button>
-        <button className='botonpropuesta'>
-          No hay otra opción
+        <button className='botonpropuesta' onClick={() => setModalVisible(true)}>
+          Si
         </button>
         </div>
       </div>
