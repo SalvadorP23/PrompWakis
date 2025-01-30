@@ -186,8 +186,14 @@ margin-top: -2rem;
 }
 
 .modal-content {
-  background:aliceblue;
   padding: 2rem;
   border-radius: 8px;
   text-align: center;
+}
+
+@media (prefers-color-scheme: dark) {
+  .modal-content {
+    background: #333; /* Fondo oscuro para el modo oscuro */
+    color: white; /* Texto blanco para contraste */
+  }
 }
