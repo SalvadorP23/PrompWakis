@@ -151,7 +151,7 @@ function App() {
           <div className="modal-content">
             <h2>Muy bien Wakis</h2>
             <p>Te espero arreglada y bien preciosa el viernes a las 20:00 hrs en tu depa. </p>
-            <button onClick={() => setModalVisible(false)} >
+            <button onClick={() => setModalVisible(false)} className='botonconfirmo' >
               Confirmo
             </button>
           </div>
